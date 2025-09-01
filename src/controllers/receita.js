@@ -34,7 +34,7 @@ const updateById = async (req, res) => {
             where: { id: Number(id) },
             data: req.body
         });
-        res.json(receita);
+        res.status(202).json(receita);
     } catch (error) {
         console.error(error);
         res.status(400).json({ error: 'Verifique os dados enviados' });
