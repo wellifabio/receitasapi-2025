@@ -18,7 +18,7 @@ model Receita {
   nome            String
   tipo            Tipo
   ingredientes    String  @db.Text
-  modoFazer       String? @db.Text
+  modoFazer       String @db.Text
   img             String?
-  custoAproximado Float
+  custoAproximado Float?
 }
