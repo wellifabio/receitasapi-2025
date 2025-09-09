@@ -22,6 +22,7 @@ Possui as rotas CRUD básicas para gerenciar receitas.
 2. Crie o arquivo .env com o Conteúdo a seguir
 ```js
 DATABASE_URL="mysql://root@localhost:3306/receitasapi?schema=public&timezone=UTC
+```
 3. Abra o XAMPP e inicie o MySQL
 4. Abra o terminal `CMD` ou `bash` do vscode, instale as dependências e faça a migração do banco de dados e inicie a API.
 ```bash
