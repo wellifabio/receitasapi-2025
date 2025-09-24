@@ -1,6 +1,6 @@
 {
   "name": "receitasapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "api/server.js",
   "scripts": {
     "dev": "npx nodemon api/server.js",
